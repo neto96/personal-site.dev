@@ -1,0 +1,24 @@
+body {
+	background-image: url(/img/cerro.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#wholepage {
+    display:none;
+}
+
+#outline {
+	color: #FFF;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.navbar-brand{
+	padding: 10px 15px;
+}
+
+
+.img-circle{
+	border-radius: 40%;
+	border: solid #000 4px;
+}
