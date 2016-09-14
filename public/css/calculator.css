@@ -1,0 +1,49 @@
+body {
+	background-image: url(/img/hypmatrix.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jumbotron {
+	text-align: center;
+}
+p {
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+p#answer{
+	height: 30px;
+}
+
+.calculator {
+	position: relative;
+	text-align: center;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .90;
+}
+
+.keys{
+width: 250px;
+}
+
+input {
+	height:30px;
+}
+
+#firstBox,#secondBox {
+	width: 101px;
+	text-align: center;
+}
+#operatorBox {
+	width: 39px;
+
+	text-align: center;
+}
+#answer {
+	margin-top: 1px;
+	width: 253px;
+	text-align: center;
+}

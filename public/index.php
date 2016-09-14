@@ -25,7 +25,7 @@
     <div id="overview-video">
         <div class="overlay">
             <div class="container">
-                <a href="/img/rolled.mp4">
+                <a href="/img/rolled.mp4" target="_blank">
                     <span class="fa fa-play"></span>
                 </a>
             </div>
@@ -90,7 +90,7 @@
     <!-- PDF Resume Section -->
     <div id="cta">
         <div class="container text-center">
-            <a href="#" class="btn go-to-btn">PDF Resume</a>
+            <a href="/resume/techresume.pdf" class="btn go-to-btn" download>PDF Resume</a>
         </div>
     </div>
 
@@ -113,13 +113,13 @@
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="http://codeup.dev/calculator.html" target="_blank">
+                            <a href="calculator.html">
                                 <div class="hover-text">
                                     <h5>JavaScript</h5>
                                     <p class="lead">Calculator</p>
                                     <div class="hline"></div>
                                 </div>
-                                <img src="img/calculator.png" class="img-responsive" id="p-image" alt="...">
+                                <img src="img/calculator.png" class="img-responsive" id="p-image" alt="..." style="margin: auto">
                             </a>
                         </div>
                     </div>
@@ -127,13 +127,13 @@
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="http://simplesimon.dev/index.html" target="_blank">
+                            <a href="/simplesimon/index.html">
                                 <div class="hover-text">
                                     <h5>JavaScript</h5>
                                     <p class="lead">Simple Simon</p>
                                     <div class="hline"></div>
                                 </div>
-                                <img src="img/simplesimon.png" class="img-responsive" id="p-image" alt="...">
+                                <img src="img/simplesimon.png" class="img-responsive" id="p-image" alt="..." style="margin: auto">
                             </a>
                         </div>
                     </div>
@@ -148,21 +148,21 @@
                                     <div class="hline"></div>
                                 </div>
                             </a>
-                            <img src="img/Weather.png" class="img-responsive" id="p-image" alt="...">
+                            <img src="img/Weather.png" class="img-responsive" id="p-image" alt="..." style="margin: auto">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#">
+                            <a href="https://210hopper.com">
                                 <div class="hover-text">
-                                    <h5>Business Card</h5>
-                                    <p class="lead">Clothing Line</p>
+                                    <h5>Capstone Project</h5>
+                                    <p class="lead">210 Hopper</p>
                                     <div class="hline"></div>
                                 </div>
                             </a>
-                            <img src="img/portfolio/04.jpg" class="img-responsive" id="p-image" alt="...">
+                            <img src="img/210hopper.png" class="img-responsive" id="p-image" alt="..." style="margin: auto">
                         </div>
                     </div>
                 </div>
