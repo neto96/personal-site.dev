@@ -11,7 +11,7 @@
         <li><a href="#about-me" class="page-scroll">About Me</a></li>
         <li><a href="#experience" class="page-scroll">Work Experience</a></li>
         <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
-        <li><a href="#about-us" class="page-scroll">About Us</a></li>
+        <li><a href="#about-us" class="page-scroll">More About Me</a></li>
         <li><a href="#contact" class="page-scroll">Contact Me</a></li>
     </ul><!--- End Menu -->
 </div> <!--- End Off Canvas Side Menu -->

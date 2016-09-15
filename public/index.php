@@ -25,9 +25,9 @@
     <div id="overview-video">
         <div class="overlay">
             <div class="container">
-                <a href="/img/rolled.mp4" target="_blank">
-                    <span class="fa fa-play"></span>
-                </a>
+<!--                <a href="/img/rolled.mp4" target="_blank">-->
+<!--                    <span class="fa fa-play"></span>-->
+<!--                </a>-->
             </div>
         </div>
     </div>
@@ -103,7 +103,7 @@
                         <h2>Portfolio</h2>
                         <hr>
                     </div>
-                    <p>Below are some of the projects that were done during my time at Codeup. These projects showcase some of the concepts learned in HTML, CSS, JavaScript, etc.</p>
+                    <p>Below are some of the projects that were done during my time at Codeup. These projects showcase some of the concepts learned in HTML, CSS, JavaScript, jQuery, PHP, MySQL & Laravel.</p>
                 </div>
             </div>
             <div class="space"></div>
@@ -202,60 +202,25 @@
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="section-title">
-                        <h2>About Us</h2>
+                        <h2>A little more about me!</h2>
                         <hr>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                    <p>When I'm not writing awesome code I like to spend my time on some of my other passions: fútbol, video games, traveling, and last, but not least, my wonderful wife.</p>
                 </div>
             </div>
-            <!-- <div class="space"></div>
+            <div class="space"></div>
             <div class="row">
-                <div class="col-md-10 col-sm-10">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4">
+
                             <div class="team">
-                                <img src="img/team/02.jpg" class="img-responsive img-circle" alt="...">
+                                <img src="img/ErnestoGarza1.jpg" class="img-responsive img-circle" alt="...">
                                 <br>
-                                <h4>Lian Gwapa</h4>
-                                <p class="small">CEO/Founder</p>
+                                <h4>Ernesto Garza</h4>
+                                <p class="small">Web Developer</p>
                                 <hr>
                             </div>
-                        </div>
+                
 
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team">
-                                <img src="img/team/04.jpg" class="img-responsive img-circle" alt="...">
-                                <br>
-                                <h4>Jenn Pereira</h4>
-                                <p class="small">Web Coder</p>
-                                <hr>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team">
-                                <img src="img/team/03.jpg" class="img-responsive img-circle" alt="...">
-                                <br>
-                                <h4>Alan Podemski</h4>
-                                <p class="small">Web Designer</p>
-                                <hr>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-2 col-sm-2">
-                    <div class="team hire">
-                        <h4>We Are Hiring!</h4>
-                        <hr>
-                        <div class="space"></div>
-                        <a href="#">
-                            <span class="fa fa-paper-plane-o fa-2x"></span>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
+            </div>
 
             <div class="text-center">
                 <a href="#contact" class="page-scroll down-btn">
@@ -277,21 +242,21 @@
 
                 <div id="testimonial" class="owl-carousel owl-theme">
                   <div class="item">
-                    <h3>Et iusto odio dignissimos ducimus qui blanditiis <br>praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint <br>occaecati cupiditate non provident. </h3>
+                    <h3>Why do you have to be always right?</h3>
                     <br>
-                    <h6>LJ, Abc Company</h6>
+                    <h6>Gavin Vaught</h6>
                   </div>
 
                   <div class="item">
-                    <h3>Fusce dapibus, tellus ac cursus commodo, tortor<br> mauris condimentum. Duis mollis, est non commodo luctus, nisi erat </h3>
+                    <h3>Nesto, can you help me out with this darn databases?</h3>
                     <br>
-                    <h6>Kai, Web Geekster</h6>
+                    <h6>Eddie Knight</h6>
                   </div>
 
                   <div class="item">
-                    <h3>Cras justo odio, dapibus ac facilisis in, egestas <br>eget quam. Donec id elit non mi porta gravida at eget metus.</h3>
+                    <h3>Your 210 Hopper idea is fantastic!<br>Now I don't have to spend much time looking for a bar <br>and use that time to drink more beers.</h3>
                     <br>
-                    <h6>Jenn, Coders' Playground</h6>
+                    <h6>Cameron Holland</h6>
                   </div>
                 </div>
             </div>
@@ -310,17 +275,17 @@
             <div class="row">
                 <div class="col-md-3">
                     <address>
-                        <strong>Address</strong><br>
-                        <br>
-                        Codeup<br>
-                        <a href="https://goo.gl/maps/rJo1qDUhrpz" id="cont-add">600 Navarro Street<br>
-                        San Antonio, TX 78205<br></a>
-                        Phone: (123) 456-7890
+                        <strong>Follow me</strong><br>
+<!--                        <br>-->
+<!--                        Codeup<br>-->
+<!--                        <a href="https://goo.gl/maps/rJo1qDUhrpz" id="cont-add">600 Navarro Street<br>-->
+<!--                        San Antonio, TX 78205<br></a>-->
+<!--                        Phone: (123) 456-7890-->
                         <ul class="social">
                             <li><a href="https://www.linkedin.com/in/ernesto-garza-3383a651"><span class="fa fa-linkedin"></span></a></li>
                             <li><a href="https://github.com/neto96"><span class="fa fa-github"></span></a></li>
                             <li><a href="http://twitter.com/TheErnestoGarza" target="_blank"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+<!--                            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>-->
                           </ul>
                     </address>
                 </div>
@@ -363,7 +328,7 @@
     <script>
       $(function(){
           $("#head-title").typed({
-            strings: ["I\'m the developer...^1000", "...you had dreamt of...^1000" ,"...until now.^1000"],
+            strings: ["I\'m the developer...^1000", "...you've been looking for...^1000" ,"...until now.^1000"],
             typeSpeed: 100,
             loop: true,
             startDelay: 100
