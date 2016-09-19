@@ -141,14 +141,14 @@
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="http://codeup.dev/newweathermap.html" target="_blank">
+                            <a href="http://adlister.TheErnestoGarza.com" target="_blank">
                                 <div class="hover-text">
-                                    <h5>API</h5>
-                                    <p class="lead">OpenWeatherMap</p>
+                                    <h5>MVC/MySQL</h5>
+                                    <p class="lead">Pokemon Black Market</p>
                                     <div class="hline"></div>
                                 </div>
                             </a>
-                            <img src="img/Weather.png" class="img-responsive" id="p-image" alt="..." style="margin: auto">
+                            <img src="img/pbm.jpg" class="img-responsive" id="p-image" alt="..." style="margin: auto; padding-top: 10%">
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                                 <p class="small">Web Developer</p>
                                 <hr>
                             </div>
-                
+
 
             </div>
 
