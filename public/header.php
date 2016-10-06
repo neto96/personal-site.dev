@@ -5,9 +5,9 @@
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ernesto Garza</title>
-    <meta name="description" content="Your Description Here">
-    <meta name="keywords" content="free boostrap, bootstrap template, freebies, free theme, free website, free portfolio theme, portfolio, personal, cv">
-    <meta name="author" content="Jenn, ThemeForces.com">
+    <meta name="description" content="If you want to know more about me, this is the place!">
+    <meta name="keywords" content="developer, php, css, laravel, html, portfolio, personal, cv">
+    <meta name="author" content="Ernesto Garza, TheErnestoGarza.com">
     <link rel="shortcut icon" type="text/css" href="/img/Ecapital.png">
 
     <!-- Favicons

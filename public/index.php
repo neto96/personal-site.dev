@@ -1,3 +1,4 @@
+<?php include '../mailgun.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <?php require "header.php" ?>
@@ -141,7 +142,7 @@
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="http://adlister.TheErnestoGarza.com" target="_blank">
+                            <a href="http://adlister.TheErnestoGarza.com">
                                 <div class="hover-text">
                                     <h5>MVC/MySQL</h5>
                                     <p class="lead">Pokemon Black Market</p>
@@ -289,22 +290,22 @@
                           </ul>
                     </address>
                 </div>
-
                 <div class="col-md-9">
-                    <form autocomplete="off">
+
+                    <form autocomplete="off" name="contactform" method="post">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Name">
-                                <input type="text" class="form-control" placeholder="Phone No.">
+                                <input type="text" class="form-control" name="first_name" placeholder="First Name">
+                                <input type="email" class="form-control" name="from" placeholder="Email">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Email">
-                                <input type="text" class="form-control" placeholder="Subject">
+                                <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+                                <input type="text" class="form-control" name="telephone" placeholder="Telephone">
                             </div>
                         </div>
-                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        <textarea class="form-control" rows="4" name="message" placeholder="Message"></textarea>
                         <div class="text-right">
-                            <a href="#" class="btn send-btn">Send</a>
+                            <input type="submit" class="btn send-btn" id="send" value="Send">
                         </div>
                     </form>
                 </div>
@@ -314,30 +315,34 @@
 
 <?php require 'footer.php' ?>
 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/jasny-bootstrap.min.js"></script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/jasny-bootstrap.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/typed.js"></script>
+<script>
+$(function(){
+$("#head-title").typed({
+strings: ["I\'m the developer...^1000", "...you've been looking for...^1000" ,"...until now.^1000"],
+typeSpeed: 100,
+loop: true,
+startDelay: 100
+});
+});
+</script>
 
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/typed.js"></script>
-    <script>
-      $(function(){
-          $("#head-title").typed({
-            strings: ["I\'m the developer...^1000", "...you've been looking for...^1000" ,"...until now.^1000"],
-            typeSpeed: 100,
-            loop: true,
-            startDelay: 100
-          });
-      });
-    </script>
-
-    <!-- Javascripts
-    ================================================== -->
+<script>
+    $('#send').click(function() {
+        alert ('Thanks for sending a message! I will get back to you ASAP.')
+    });
+</script>
+<!-- Javascripts
+================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
 
   </body>
