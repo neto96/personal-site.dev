@@ -91,7 +91,7 @@
     <!-- PDF Resume Section -->
     <div id="cta">
         <div class="container text-center">
-            <a href="/resume/techresume.pdf" class="btn go-to-btn" download>PDF Resume</a>
+            <a href="/resume/ErnestoGarzaResume.pdf" class="btn go-to-btn" download>PDF Resume</a>
         </div>
     </div>
 
